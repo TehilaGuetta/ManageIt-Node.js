@@ -1,0 +1,2 @@
+const {deleteOrderQuery,getAvgPriceByUserIdQuery,getPriceByUserIdQuery,getAmountOfOrdersQuery,findAllOrdersByUserIdIfFinishQuery, findAllOrdersByUserIdQuery,addProductsToOrderQuery,updateOrderQuery,deleteProductInOrderQuery }=  require("../db/orderQueries")
+module.exports =  {deleteOrderQuery,getAvgPriceByUserIdQuery,getPriceByUserIdQuery,getAmountOfOrdersQuery,findAllOrdersByUserIdIfFinishQuery, findAllOrdersByUserIdQuery,addProductsToOrderQuery,updateOrderQuery,deleteProductInOrderQuery }
